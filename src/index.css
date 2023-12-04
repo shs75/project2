@@ -15,7 +15,7 @@ body {
   color: #252525;
   font-weight: 400;
   background-color: #f7f2e9;
-  border-bottom: 1.6rem solid #edc84b;
+  border-bottom: 1.6rem solid #3366cc;
   min-height: 100vh;
   padding: 3.2rem;
   padding-bottom: 6rem;
@@ -39,7 +39,7 @@ body {
 
 .header h1 {
   /* Non-accessible color */
-  color: #edc84b;
+  color: #3366cc;
   /* color: #af8602; */
 
   text-transform: uppercase;
@@ -57,8 +57,8 @@ body {
   display: block;
   content: '';
   height: 3px;
-  width: 12rem;
-  background-color: #edc84b;
+  width: 10rem;
+  background-color: #3366cc;
   position: absolute;
   top: calc(50% - 1px);
 }
@@ -163,19 +163,19 @@ body {
 }
 
 .btn {
-  color: inherit;
+  color: white;
   font-family: inherit;
   border: none;
   font-size: 1.4rem;
   font-weight: 500;
-  background-color: #edc84b;
+  background-color: #3366cc;
   padding: 1.4rem 3.2rem;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .btn:hover {
-  background-color: #e9bb24;
+  background-color: #2960cf;
 }
 
 /*
